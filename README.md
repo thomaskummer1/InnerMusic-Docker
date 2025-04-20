@@ -23,6 +23,7 @@ deploy/
 ```bash
 git clone --recurse-submodules https://github.com/thomaskummer1/InnerMusic-Deploy.git
 cd InnerMusic-Deploy
+```
 
 Frontend env:
 REACT_APP_REMOTE_SERVER= backend url
@@ -34,5 +35,6 @@ MONGO_CONNECTION_STRING= url for remote atlas db
 PORT= current running port
 NETLIFY_URL= frontend url
 
+```
 docker-compose up --build -d
 ```

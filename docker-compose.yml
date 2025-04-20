@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: ./innermusic
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./innermusic-backend
+    ports:
+      - "5000:5000"

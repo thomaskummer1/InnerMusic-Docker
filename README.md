@@ -11,10 +11,10 @@ This repository orchestrates deployment for the InnerMusic project using Docker 
 ## 🧱 Repo Structure
 
 deploy/
-├── docker-compose.yml
-├── frontend/ ← React frontend (submodule)
-├── backend/ ← Node backend (submodule)
-└── .gitmodules
+├── docker-compose.yml<br>
+├── frontend/ ← React frontend (submodule)<br>
+├── backend/ ← Node backend (submodule)<br>
+└── .gitmodules<br>
 
 ## 🚀 Quickstart (Local or EC2)
 
@@ -25,15 +25,15 @@ git clone --recurse-submodules https://github.com/thomaskummer1/InnerMusic-Deplo
 cd InnerMusic-Deploy
 ```
 
-Frontend env:
-REACT_APP_REMOTE_SERVER= backend url
-REACT_APP_CLIENT_ID= Spotify ID
-REACT_APP_CLIENT_SECRET= Spotify Secret
+Frontend env:<br>
+REACT_APP_REMOTE_SERVER= backend url<br>
+REACT_APP_CLIENT_ID= Spotify ID<br>
+REACT_APP_CLIENT_SECRET= Spotify Secret<br>
 
-Backend env:
-MONGO_CONNECTION_STRING= url for remote atlas db
-PORT= current running port
-NETLIFY_URL= frontend url
+Backend env:<br>
+MONGO_CONNECTION_STRING= url for remote atlas db<br>
+PORT= current running port<br>
+NETLIFY_URL= frontend url<br>
 
 ```
 docker-compose up --build -d

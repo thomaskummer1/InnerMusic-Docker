@@ -1,6 +1,6 @@
 [submodule "InnerMusic-Backend"]
-	path = InnerMusic-Backend
+	path = innermusic-backend
 	url = https://github.com/thomaskummer1/InnerMusic-Backend
 [submodule "InnerMusic"]
-	path = InnerMusic
+	path = innermusic
 	url = https://github.com/thomaskummer1/InnerMusic

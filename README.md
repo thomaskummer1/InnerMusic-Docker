@@ -10,7 +10,7 @@ This repository orchestrates deployment for the InnerMusic project using Docker 
 
 ## 🧱 Repo Structure
 
-deploy/
+deploy/<br>
 ├── docker-compose.yml<br>
 ├── frontend/ ← React frontend (submodule)<br>
 ├── backend/ ← Node backend (submodule)<br>

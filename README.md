@@ -2,7 +2,7 @@
 
 This repository orchestrates deployment for the InnerMusic project using Docker and Git submodules. It includes:
 
-- 📦 `frontend/` (React client) – Submodule of [InnerMusic-Frontend](https://github.com/thomaskummer1/InnerMusic-Frontend)
+- 📦 `frontend/` (React client) – Submodule of [InnerMusic-Frontend](https://github.com/thomaskummer1/InnerMusic)
 - 🔧 `backend/` (Node.js server) – Submodule of [InnerMusic-Backend](https://github.com/thomaskummer1/InnerMusic-Backend)
 - 🐳 `docker-compose.yml` for spinning everything up on one machine
 
